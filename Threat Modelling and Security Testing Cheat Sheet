@@ -1,0 +1,108 @@
+Threat Modelling and Security Testing Cheat Sheet
+
+Information Security Tenets	
+Confidentiality
+Integrity
+Availability
+
+Penetration Testing Phases
+Reconnaissance
+Identify Entry Points
+Gain Access
+Maintain Persistence
+Cover Tracks
+
+Attacker Motivations
+Financial Gain	
+Political
+Espionage
+Revenge
+Recognition
+Accident (no motive)
+
+Types of Personas
+Goal Directed
+Role Based
+Engaging
+Fictional
+
+Creating Personas
+Collect Data
+Cluster Traits
+Identify Characteristics
+Write Story
+
+Data Sources
+Industry Reports
+Corporate Security Team
+News Stories
+Security and Law Enforcement Bulletins
+
+Threat Modelling Basics
+Decompose the Application
+Identify Threats
+Mitigate Risks
+
+STRIDE
+Spoofing
+Tampering
+Repudiation
+Information Disclosure
+Denial of Service
+Elevation of Privilege
+
+DREAD
+Damage
+Reproducibility
+Exploitability
+Affected Users
+Detectability
+
+
+OWASP Top 10 (Web) 2017
+Injection
+Broken Authentication
+Sensitive Data Exposure
+XML External Entities (XXE)
+Broken Access Control
+Security Misconfiguration
+Cross Site Scripting (XSS)
+Insecure Deserialisation
+Using Components with Known Vulnerabilities
+Insufficient Logging and Monitoring
+
+OWASP Top 10 (Mobile) 2016
+Improper Platform Usage
+Insecure Data Storage
+Insecure Communication
+Insecure Authentication
+Insufficient Cryptography
+Insecure Authorisation
+Client Code Quality
+Code Tampering
+Reverse Engineering
+Extraneous Functionality
+
+
+Models Can Fail. Tips for anticipating the unexpected:
+Expand your awareness - use empirical evidence
+Don’t rely on averages to mitigate risks. Normal distributions don’t fit all situations
+Focus on risks that are extremely impactful or extremely common
+Defend against outcomes, not specific events
+Take a few small risks, as these may present little downsides, with unlimited upsides
+
+Further Reading	
+OWASP www.owasp.org 
+OWASP Testing Guide
+OWASP Application Security Verification Standard
+Threat Modeling: Designing for Security - Adam Shostack
+Process for Attack Simulation & Threat Analysis - Tony Uceda-Velez
+Thinking Fast and Slow - Daniel Kahneman
+The Black Swan - Nassim Nicholas Taleb
+About Face: The Essentials of Interaction Design - by Cooper et al
+
+
+
+With thanks to Josh Gibbs @quizzicaljosh gibbsjosh@gmail.com
+Dan Billing @thetestdoctor daniel.billing@thetestdoctor.co.uk
+
